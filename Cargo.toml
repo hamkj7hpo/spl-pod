@@ -13,7 +13,7 @@ no-entrypoint = []
 [dependencies]
 bytemuck = { version = "1.17.1", features = ["derive"] }
 solana-program = { git = "https://github.com/hamkj7hpo/solana.git", branch = "safe-pump-compat" }
-solana-zk-sdk = { git = "https://github.com/hamkj7hpo/solana.git", branch = "safe-pump-compat", optional = true }
+solana-zk-sdk = { git = "https://github.com/hamkj7hpo/solana.git", branch = "safe-pump-compat" }
 spl-program-error = { git = "https://github.com/hamkj7hpo/solana-program-library.git", branch = "safe-pump-compat", package = "spl-program-error" }
 thiserror = "1.0"
 

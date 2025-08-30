@@ -1,5 +1,6 @@
 use thiserror::Error;
 use solana_program::program_error::ProgramError;
+use spl_program_error::spl_program_error;
 
 #[derive(Error, Debug, Clone, PartialEq)]
 #[spl_program_error]

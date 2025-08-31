@@ -12,10 +12,10 @@ no-entrypoint = []
 
 [dependencies]
 bytemuck = { version = "1.17.1", features = ["derive"] }
-solana-program = { git = "https://github.com/hamkj7hpo/solana.git", branch = "safe-pump-compat" }
-spl-program-error = { git = "https://github.com/hamkj7hpo/solana-program-library.git", branch = "safe-pump-compat", package = "spl-program-error" }
+solana-program = { git = "https://github.com/hamkj7hpo/solana.git", rev = "bcc398b87fbe0905d1a847cb94a264ecfaa5e95d" }
+spl-program-error = { git = "https://github.com/hamkj7hpo/solana-program-library.git", rev = "f86fefd752bc4ca50adc8f06cd9ba579326c769e", package = "spl-program-error" }
+solana-zk-sdk = { git = "https://github.com/hamkj7hpo/zk-elgamal-proof.git", rev = "7231bf2a86b4ba6ead745e5ada7b163a8d8ed66d", package = "solana-zk-sdk" }
 thiserror = "1.0"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-solana-zk-sdk = { git = "https://github.com/hamkj7hpo/zk-elgamal-proof.git", branch = "safe-pump-compat", package = "solana-zk-sdk" }

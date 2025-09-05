@@ -11,6 +11,7 @@ edition = "2021"
 no-entrypoint = []
 
 [dependencies]
+zeroize = "1.3.0"
 solana-program = { git = "https://github.com/hamkj7hpo/solana.git", branch = "safe-pump-compat", package = "solana-program" }
 bytemuck = { version = "1.18.0", features = ["derive"] }
 spl-program-error = { git = "https://github.com/hamkj7hpo/solana-program-library.git", rev = "f86fefd752bc4ca50adc8f06cd9ba579326c769e", package = "spl-program-error" }

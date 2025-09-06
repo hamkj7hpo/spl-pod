@@ -12,7 +12,7 @@ no-entrypoint = []
 
 [dependencies]
 zeroize = "1.3.0"
-solana-zk-sdk = { git = "https://github.com/hamkj7hpo/zk-elgamal-proof.git", branch = "safe-pump-compat", package = "solana-zk-sdk" }
+solana-zk-sdk = { git = "https://github.com/hamkj7hpo/zk-elgamal-proof.git", rev = "b0a83885270a06e0fa110882ce094e4e535ac1e1", package = "solana-zk-sdk" }
 solana-program = { git = "https://github.com/hamkj7hpo/solana.git", rev = "079536b934de349771fa8a0e9945bcef01f529cc", package = "solana-program" }
 bytemuck = { version = "1.18.0", features = ["derive"] }
 thiserror = "1.0"

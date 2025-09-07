@@ -20,4 +20,3 @@ thiserror = "1.0"
 [lib]
 crate-type = ["cdylib", "lib"]
 
-[patch.crates-io]

@@ -11,7 +11,7 @@ edition = "2021"
 no-entrypoint = []
 
 [dependencies]
-zeroize = "1.3.0"
+zeroize = { git = "https://github.com/hamkj7hpo/utils.git", branch = "safe-pump-compat", package = "zeroize" }
 solana-zk-sdk = { git = "https://github.com/hamkj7hpo/zk-elgamal-proof.git", branch = "safe-pump-compat", package = "solana-zk-sdk" }
 solana-program = { git = "https://github.com/hamkj7hpo/solana.git", branch = "safe-pump-compat" }
 bytemuck = { version = "1.18.0", features = ["derive"] }
